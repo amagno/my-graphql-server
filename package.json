@@ -12,6 +12,6 @@
     "graphql-tools": "^0.11.0"
   },
   "scripts": {
-    "start": "babel-node --presets es2015 server.js"
+    "start": "babel-node --presets es2015 ./server.js"
   }
 }
