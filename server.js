@@ -19,7 +19,7 @@ const resolvers = {
   }
 }
 const mySchema = makeExecutableSchema({ typeDefs, resolvers })
-const port = 80
+const port = process.env.PORT || 80
 
 let app = express()
 
