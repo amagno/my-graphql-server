@@ -32,7 +32,7 @@ app.use('/graphql', _bodyParser2.default.json(), (0, _graphqlServerExpress.graph
 app.use('/graphiql', (0, _graphqlServerExpress.graphiqlExpress)({ endpointURL: '/graphql' }));
 
 app.use('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hello World!aaaassadasdasda');
 });
 
 app.listen(port, function () {
